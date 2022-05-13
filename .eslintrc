@@ -59,6 +59,7 @@
         "allowForLoopAfterthoughts": true
       }
     ],
+    "no-unused-vars": "off",
     // "import/no-extraneous-dependencies": ["error", { "packageDir": ["./client"] }],
     "no-console": 0,
     "import/prefer-default-export": 0,
