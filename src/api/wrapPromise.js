@@ -1,6 +1,6 @@
 /**
- * 
- * @param {object} promise 
+ *
+ * @param {object} promise
  * @returns {function}
  */
 const wrapPromise = (promise) => {
@@ -21,7 +21,7 @@ const wrapPromise = (promise) => {
       status = 'error';
       response = err;
     }
-  }
+  };
 
   // this function will be captured and indicate React.Suspense
   // what the process is for resolving the promise object
@@ -37,9 +37,9 @@ const wrapPromise = (promise) => {
       default:
         return response;
     }
-  }
+  };
 
-  return { read }
+  return { read };
 };
 
 export default wrapPromise;
